@@ -1,0 +1,41 @@
+---
+title: "Todays hits"
+format: 
+  dashboard: 
+    orientation: columns
+---
+
+## Column {width= "35%"}
+
+placeholder text 
+```{r, loadpackages}
+#| echo: false
+#| include: false
+library(tidyverse)
+```
+
+```{r, print starwars}
+head(starwars)
+print
+```
+
+## Column {width= "65%"}
+
+placeholder text
+
+### Row {height= "10%"}
+
+placeholder 
+
+### Row {height= "70%"}
+
+placeholder
+
+### Row {height="20%"}
+
+placeholder
+
+
+
+
+
